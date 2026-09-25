@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Atividade Prática - Oficina de Tecnologia</title>
+</head>
+
+<body>
+
+    <h1>Oficina de Tecnologia</h1>
+
+    <p>
+        A Oficina de Tecnologia visa ser um espaço prático voltado para a
+        aprendizagem sobre tecnologia para pessoas de todas as idades.
+        Nesse espaço, será desenvolvido o conhecimento sobre tecnologia
+        e exploração da criatividade.
+    </p>
+
+    <figure>
+        <img src="img/tecnologia.jpeg"
+             alt="Imagem de um cérebro com circuitos elétricos azul"
+             width="300">
+        <figcaption>Figura: Uma imagem de um cérebro com circuitos azuis.</figcaption>
+    </figure>
+
+    <h2>Regras da Oficina</h2>
+
+    <p>
+        Aqui temos algumas regras para manter o ambiente agradável,
+        organizado e seguro para todos os participantes.
+    </p>
+
+    <ol>
+        <li>Respeitar os integrantes</li>
+        <li>Manter o ambiente limpo</li>
+        <li>Cuidar dos equipamentos</li>
+        <li>Seguir as orientações do responsável</li>
+    </ol>
+
+    <h2>Horários das atividades</h2>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Horário</th>
+                <th>Atividade</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>08:00</td>
+                <td>Introdução à Tecnologia</td>
+            </tr>
+
+            <tr>
+                <td>09:00</td>
+                <td>Inteligência Artificial</td>
+            </tr>
+
+            <tr>
+                <td>10:00</td>
+                <td>Programação Básica</td>
+            </tr>
+
+            <tr>
+                <td>11:00</td>
+                <td>Intervalo</td>
+            </tr>
+
+            <tr>
+                <td>11:30</td>
+                <td>Robótica</td>
+            </tr>
+
+            <tr>
+                <td>12:30</td>
+                <td>Almoço</td>
+            </tr>
+
+            <tr>
+                <td>13:30</td>
+                <td>Introdução à Tecnologia</td>
+            </tr>
+
+            <tr>
+                <td>14:30</td>
+                <td>Inteligência Artificial</td>
+            </tr>
+
+            <tr>
+                <td>15:30</td>
+                <td>Programação Básica</td>
+            </tr>
+
+            <tr>
+                <td>16:30</td>
+                <td>Intervalo</td>
+            </tr>
+
+            <tr>
+                <td>17:00</td>
+                <td>Robótica</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>18:00</td>
+                <td>Encerramento</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <h2>Formulário de inscrição</h2>
+
+    <form action="" method="post">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+        <br><br>
+
+        <p>Qual turno deseja fazer?</p>
+
+        <label for="manha">Manhã</label>
+        <input type="radio" id="manha" name="turno" value="manha" required>
+        <br>
+
+        <label for="tarde">Tarde</label>
+        <input type="radio" id="tarde" name="turno" value="tarde">
+        <br><br>
+
+        <p>Área de interesse:</p>
+
+        <input type="checkbox" id="introducao" name="interesse" value="introducao">
+        <label for="introducao">Introdução à Tecnologia</label>
+        <br>
+
+        <input type="checkbox" id="ia" name="interesse" value="ia">
+        <label for="ia">Inteligência Artificial</label>
+        <br>
+
+        <input type="checkbox" id="programacao" name="interesse" value="programacao">
+        <label for="programacao">Programação Básica</label>
+        <br>
+
+        <input type="checkbox" id="robotica" name="interesse" value="robotica">
+        <label for="robotica">Robótica</label>
+        <br><br>
+
+        <label for="curso">Curso:</label>
+
+        <select name="curso" id="curso">
+            <option value="">Selecione</option>
+            <option value="informatica">Informática</option>
+            <option value="robotica">Robótica</option>
+        </select>
+
+        <br><br>
+
+        <label for="comentario">Comentário:</label>
+        <br>
+
+        <textarea id="comentario" name="comentario" rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+        <br><br>
+
+        <a href="https://convergenciadigital.com.br" target="_blank">
+            Descubra mais sobre tecnologia!
+        </a>
+
+    </form>
+
+</body>
+</html>
